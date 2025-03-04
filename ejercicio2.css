@@ -1,0 +1,24 @@
+.subrayado {
+    text-decoration: underline;
+}
+.azul {
+    color: blue;
+}
+.rojo {
+    color: red;
+}
+.verde {
+    color: lightgreen;
+}
+.rosa {
+    color: pink;
+}
+.fondo {
+    background-color: black;
+}
+.tamaño {
+    font-size: 20px;
+}
+.subrayadoarriba{
+    text-decoration: underline overline;
+}

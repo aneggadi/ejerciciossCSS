@@ -1,0 +1,8 @@
+.tamaño {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+.bordes{
+    border: 2px   red;
+}

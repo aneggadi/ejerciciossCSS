@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de Fondos y Bordes</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            text-align: left;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-weight: bold;
+        }
+        .contenedor {
+            display: inline-block;
+            padding: 10px;
+            background-color: lightgreen;
+            border: 6px solid white;
+        }
+        table {
+            background-color: rgba(74, 191, 245, 0.574);
+            width: 100%;
+            border: 6px solid white;
+           
+        }
+        td {
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            border: 0;
+        }
+        .bordes1 {
+            border-bottom: 3px dotted red;
+        }
+        .bordes2 {
+            border-right: 3px dotted red;
+        }
+    </style>
+</head>
+<body>
+    <h1>EJEMPLO DE USO DE FONDOS Y BORDES</h1>
+    <div class="contenedor">
+        <table>
+            <tr>
+                <td class="bordes1 bordes2">CELDA 11</td>
+                <td class="bordes1 bordes2">CELDA 12</td>
+                <td class="bordes1 bordes2">CELDA 13</td>
+                <td class="bordes1">CELDA 14</td>
+            </tr>
+            <tr>
+                <td class="bordes1 bordes2">CELDA 21</td>
+                <td class="bordes1 bordes2">CELDA 22</td>
+                <td class="bordes1 bordes2">CELDA 23</td>
+                <td class="bordes1">CELDA 24</td>
+            </tr>
+            <tr>
+                <td class="bordes2">CELDA 31</td>
+                <td class="bordes2">CELDA 32</td>
+                <td class="bordes2">CELDA 33</td>
+                <td>CELDA 34</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
