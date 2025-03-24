@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música de Fondo</title>
+</head>
+<body>
+    <!-- Música de fondo para Internet Explorer -->
+    <bgsound src="background_music.mp3" loop="infinite">
+
+    <!-- Música de fondo para navegadores modernos como Firefox -->
+    <embed src="background_music.mp3" autostart="true" loop="true" hidden="true" type="audio/mpeg">
+
+    <h1>Autor: Tu Autor Favorito</h1>
+    <p>Haz clic en los iconos para reproducir nuevas canciones.</p>
+
+    <!-- Iconos con imágenes del autor -->
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <a href="song1.mp3" onclick="playSong('song1.mp3'); return false;">
+            <img src="icon1.jpg" alt="Icono 1" width="100" height="100">
+        </a>
+        <a href="song2.mp3" onclick="playSong('song2.mp3'); return false;">
+            <img src="icon2.jpg" alt="Icono 2" width="100" height="100">
+        </a>
+        <a href="song3.mp3" onclick="playSong('song3.mp3'); return false;">
+            <img src="icon3.jpg" alt="Icono 3" width="100" height="100">
+        </a>
+        <a href="song4.mp3" onclick="playSong('song4.mp3'); return false;">
+            <img src="icon4.jpg" alt="Icono 4" width="100" height="100">
+        </a>
+        <a href="song5.mp3" onclick="playSong('song5.mp3'); return false;">
+            <img src="icon5.jpg" alt="Icono 5" width="100" height="100">
+        </a>
+        <a href="song6.mp3" onclick="playSong('song6.mp3'); return false;">
+            <img src="icon6.jpg" alt="Icono 6" width="100" height="100">
+        </a>
+        <a href="song7.mp3" onclick="playSong('song7.mp3'); return false;">
+            <img src="icon7.jpg" alt="Icono 7" width="100" height="100">
+        </a>
+        <a href="song8.mp3" onclick="playSong('song8.mp3'); return false;">
+            <img src="icon8.jpg" alt="Icono 8" width="100" height="100">
+        </a>
+    </div>
+
+    <script>
+        // Función para reproducir una nueva canción
+        function playSong(song) {
+            const audio = new Audio(song);
+            audio.play();
+        }
+    </script>
+</body>
+</html>

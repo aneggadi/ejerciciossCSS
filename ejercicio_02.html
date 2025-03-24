@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos de Fondo</title>
+</head>
+<body>
+    <!-- Vídeo centrado en la parte superior -->
+    <div>
+        <video controls autoplay width="640">
+            <source src="intro_video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de vídeos.
+        </video>
+    </div>
+
+    <h1>Autor: Tu Autor Favorito</h1>
+    <p>Haz clic en los iconos para reproducir nuevos vídeos.</p>
+
+    <!-- Iconos con enlaces a vídeos -->
+    <div>
+        <a href="video1.mp4" onclick="playVideo('video1.mp4'); return false;">
+            <img src="icon1.jpg" alt="Icono 1" width="100" height="100">
+        </a>
+        <a href="video2.mp4" onclick="playVideo('video2.mp4'); return false;">
+            <img src="icon2.jpg" alt="Icono 2" width="100" height="100">
+        </a>
+        <a href="video3.mp4" onclick="playVideo('video3.mp4'); return false;">
+            <img src="icon3.jpg" alt="Icono 3" width="100" height="100">
+        </a>
+        <a href="video4.mp4" onclick="playVideo('video4.mp4'); return false;">
+            <img src="icon4.jpg" alt="Icono 4" width="100" height="100">
+        </a>
+        <a href="video5.mp4" onclick="playVideo('video5.mp4'); return false;">
+            <img src="icon5.jpg" alt="Icono 5" width="100" height="100">
+        </a>
+        <a href="video6.mp4" onclick="playVideo('video6.mp4'); return false;">
+            <img src="icon6.jpg" alt="Icono 6" width="100" height="100">
+        </a>
+        <a href="video7.mp4" onclick="playVideo('video7.mp4'); return false;">
+            <img src="icon7.jpg" alt="Icono 7" width="100" height="100">
+        </a>
+        <a href="video8.mp4" onclick="playVideo('video8.mp4'); return false;">
+            <img src="icon8.jpg" alt="Icono 8" width="100" height="100">
+        </a>
+    </div>
+
+    <script>
+        // Función para reproducir un nuevo vídeo
+        function playVideo(video) {
+            const videoElement = document.querySelector('video');
+            videoElement.src = video;
+            videoElement.play();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+Problemas: 
+
+Chrome puede bloquear la reproducción automática de 
+audio o video si no hay interacción del usuario.
+
+Safari tiene soporte limitado para ciertos formatos
+de audio y video (por ejemplo, .mp4 y .mp3 suelen
+funcionar, pero otros formatos pueden no ser compatibles).
+
+Similitudes:
+
+Todos los navegadores modernos soportan etiquetas como <audio>,
+<video>, y <object>.
+
+La reproducción de contenido multimedia puede estar restringida
+por políticas de seguridad (como la reproducción automática).
+
+Diferencias: 
+
+El soporte para <object> puede variar entre navegadores.
+La consola del navegador puede mostrar advertencias 
+o errores específicos según el navegador.
